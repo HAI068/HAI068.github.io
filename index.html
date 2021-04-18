@@ -3,9 +3,37 @@
 <head>
   <meta charset="utf-8">
   <title>My Web Page</title>
+   <style>
+   video{
+          position: fixed;
+          right: 0 ;
+          bottom: 0  ;
+          min-width: 100%;
+          min-height: 100%;
+          width:0 auto;
+          height:0 auto;
+          z-index: -9999;
+      }
+    button{
+	         background-color:#f66f6a;
+	          color:white;
+	          width: 400px;
+	          height: 45px;
+	          border:0;
+	          font-size: 16px;
+	          box-sizing: content-box;
+            border-radius: 5px;
+          }
+      button:hover{
+	            background-color: #a54b4a;
+          }
+  </style>
   </head>
-  <body>
-    <h1>My First Website</h1>
-
+  <body >
+    <center>
+      <h1>四面楚歌意气尽，美人殉情轻轻吟（打一电影名）</h1>
+      <button onclick="sayHello()">点击我回答谜题</button></center>
+    <script src="one.js"></script>
+      <video src="movie.mp4" type="video/mp4" autoplay="autoplay" loop="loop" muted="muted" >您的浏览器不支持播放该视频！  </video>
   </body>
   </html>
