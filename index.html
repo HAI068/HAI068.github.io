@@ -1,39 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>My Web Page</title>
-   <style>
-   video{
-          position: fixed;
-          right: 0 ;
-          bottom: 0  ;
-          min-width: 100%;
-          min-height: 100%;
-          width:0 auto;
-          height:0 auto;
-          z-index: -9999;
-      }
-    button{
-	         background-color:#f66f6a;
-	          color:white;
-	          width: 400px;
-	          height: 45px;
-	          border:0;
-	          font-size: 16px;
-	          box-sizing: content-box;
-            border-radius: 5px;
-          }
-      button:hover{
-	            background-color: #a54b4a;
-          }
-  </style>
-  </head>
-  <body >
-    <center>
-      <h1>四面楚歌意气尽，美人殉情轻轻吟（打一电影名）</h1>
-      <button onclick="sayHello()">点击我回答谜题</button></center>
-    <script src="one.js"></script>
-      <video src="movie.mp4" type="video/mp4" autoplay="autoplay" loop="loop" muted="muted" >您的浏览器不支持播放该视频！  </video>
-  </body>
-  </html>
+<meta charset="utf-8"/>
+<title>Today music</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="tu.ico" type="image/x-icon">
+<link href="hai.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+<body>
+<div >
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+<a class="navbar-brand" href="https://www.runoob.com/try/try.php?filename=bootstrap3-inputgroup-buttonaddons">
+<img src="tubiao.png" width="30" height="30" alt="">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <form class="form-inline my-2 my-lg-0">
+   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   <button class="btn btn-outline-light my-2 my-sm-0" type="submit">搜索</button>
+       </form>
+ <ul class="navbar-nav ml-auto">
+  <li class="nav-item active">
+   <a class="nav-link" href="#">首页</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" href="#">视频</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" href="#">音乐日志</a>
+  </li>
+  <li class="nav-item ">
+    <a class="nav-link" href="#">发现</a>
+  </li>
+</ul>
+</div>
+</nav>
+</div>
+<div class="container" >
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+</ol>
+ <div class="carousel-inner"style="margin-top: 10px; margin-bottom: 10px">
+   <div class="carousel-item active">
+   <img src="http://p1.music.126.net/CZTZCWHVcpMfcdn4e5VcFA==/109951165996609725.jpg?imageView&quality=89" class="d-block w-100 " >
+   </div>
+   <div class="carousel-item">
+   <img src="http://p1.music.126.net/q6hEILyDHCRQtLAzm5lQtg==/109951165996707568.jpg?imageView&quality=89" class="d-block w-100">
+   </div>
+   <div class="carousel-item">
+   <img src="http://p1.music.126.net/mx3Fs_yUghwTn9oWL-QqGg==/109951165997337356.jpg?imageView&quality=89" class="d-block w-100 ">
+   </div>
+ </div>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+<section id="Scrolled" class="section ">
+  <div class="container w-container">
+    <div class="grid-3-columns">
+      <div id="w-node-_15b6f4d8-64db-4765-fd98-e69d73dfaa18-4ea7d304" class="card"><img src="https://hbimg.huabanimg.com/a0630b013466cf2126742c8648352b0dd07771c538710-UQsQht_fw658/format/webp" alt="" loading="lazy"/>
+      <div class="card-title">元气的一天</div>
+      <div class="div-block"></div>
+      <div class="card-description">元气的一天，从第一首欢快的音乐开始。让音乐扫除阴霾，迎接美好的一天！</div>
+      <a href="#" class="primary-button ">more</a>
+    </div>
+    <div id="w-node-_22754de9-f8c7-f7cd-a757-d60cd7993e10-4ea7d304" class="card"><img src="https://hbimg.huabanimg.com/630607ea6aefc61e7f7c52c57696c02fd2e55bde2604a-Bb4Wnv_fw658/format/webp" alt="" loading="lazy"/>
+      <div class="card-title">出去走走</div>
+      <div class="card-description">辛苦工作学习的一天，也需要暂停一下。放下烦恼，和一二朋友闲步出门。</div>
+      <a id="button-style" href="#" class="primary-button w-button">more</a>
+    </div>
+    <div id="w-node-_745f84bc-601c-838a-a03b-d63bac9179dc-4ea7d304" class="card"><img src="https://hbimg.huabanimg.com/f213755fe8333ad9be39409a2efb15e29abcad631f690-A5WBLt_fw658/format/webp" alt="" loading="lazy"/>
+      <div class="card-title">一个人的幻想空间</div>
+      <div class="card-description">我们都有一处自己的星球，承载着我们的幻想。在自己的幻想空间，寻找一处宁静。</div>
+       <a id="button-style-2" href="#" class="primary-button w-button">more</a>
+     </div>
+   </div>
+ </div>
+</section>
+<section class="section">
+  <div class="container w-container">
+    <div class="grid-2-columns mobile-inverted last"><img src="http://p1.music.126.net/FDl7t_dz5hICsyxPNw99ZA==/109951165999263107.jpg?imageView&quality=89" id="w-node-d12da00f-3900-ad38-5f07-413ea66a55e9-4ea7d304" loading="lazy" alt=""/>
+    </div>
+    <div id="w-node-d12da00f-3900-ad38-5f07-413ea66a55e3-4ea7d304" class="featured-text">
+      <h2 class="feature-heading">今日推荐：《she》</h2>
+      <a href="#" class="feature-link">点击播放</a>
+    </div>
+    <div class="grid-2-columns mobile-inverted">
+      <p></p>
+    </div>
+    <div class="grid-2-columns mobile-inverted"><img src="https://hbimg.huabanimg.com/6a9684c6d86e4bc6a9c252a9e10ff2216d486876407eb-GXGpAH_fw658/format/webp" id="w-node-a60fb288-ff24-29fe-3fe2-5136f8d82cf2-4ea7d304" sizes="(max-width: 479px) 82vw, (max-width: 767px) 87vw, (max-width: 991px) 44vw, 440px" loading="lazy" >
+      <div id="w-node-_2539fb99-4996-a5d9-2248-8d7c0722ac48-4ea7d304" class="featured-text">
+        <h2 class="feature-heading">又是一年毕业季</h2>
+        <div class="card-description">又是一年毕业季，你还记得刚入学时的自己吗？昨日的你，有着稚气青涩的脸庞，面对未知的大学生活充满紧张与期待。今天的你更加丰厚而沉着，坚定不移地追求着自己的梦想。<br/><strong>点击</strong> 下方链接，来写下那首你的毕业之歌和记忆吧。</div>
+        <a href="#" class="feature-link">我的毕业歌单</a>
+       </div>
+     </div>
+     <div class="grid-2-columns">
+       <div id="w-node-cfcd9e4e-6a2a-6207-812b-730e65a24d19-4ea7d304" class="featured-text">
+         <div class="pill">ost</div>
+         <h2 class="feature-heading">那些我们追过的影视剧</h2>
+         <div class="card-description">剧集也许已经完结<br/>音乐却记录下着我们的感动<br/><br/><strong>点击</strong> 下方链接来听经典影视剧ost<br/></div>
+         <a href="#" class="feature-link">经典影视剧OST</a>
+       </div><img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1735375058,2638722492&fm=26&gp=0.jpg" id="w-node-_34880238-68e9-1179-3dd5-f574bd590fc5-4ea7d304" loading="lazy" alt=""/>
+     </div>
+
+  </div>
+</section>
+<section class="cta bg-dark">
+</section>
+<footer class="section footer">
+  <div class="container w-container">
+    <div class="footer-menu">
+      <a href="#" class="footer-brand w-inline-block">
+        <div class="text-block">Today music</div>
+      </a>
+      <div class="footer-column">
+        <h3 class="footer-label">信息</h3>
+        <ul role="list" class="w-list-unstyled">
+          <li>
+            <a href="#" class="footer-link">关于</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">帮助</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">历史</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-label">联系</h3>
+        <ul role="list" class="w-list-unstyled">
+          <li>
+            <a href="#" class="footer-link">hy28802@163.com</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">微博</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="w-embed">
+    <style type="text/css">
+
+.feature-link {
+    text-underline-position: under;
+  }
+</style>
+</div>
+</body>
+</html>
